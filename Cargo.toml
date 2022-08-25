@@ -9,3 +9,12 @@ license = "Apache-2.0"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+
+[package.metadata.rpm]
+package = "copr-test"
+
+[package.metadata.rpm.cargo]
+buildflags = ["--release"]
+
+[package.metadata.rpm.targets]
+copr-test = { path = "/usr/bin/copr-test" }
