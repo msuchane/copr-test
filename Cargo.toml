@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2021"
 description = "Test building a Rusr project in Copr for RHEL 8"
 authors = ["Marek Suchánek <msuchane@redhat.com>"]
-license = ["Apache-2.0"]
+license = "Apache-2.0"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
